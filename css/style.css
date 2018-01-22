@@ -1,0 +1,22 @@
+/* GENERAL STYLING */
+
+* {
+  box-sizing: border-box;
+}
+
+header, footer, .intro {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* HEADER STYLING */
+
+h1 {
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+}
