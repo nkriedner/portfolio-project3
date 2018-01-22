@@ -8,14 +8,11 @@ header, footer, .intro {
   text-align: center;
 }
 
-main {
-  width: 100%;
+main, footer {
+  width: 95%;
   margin: 0 auto;
 }
 
-fieldset {
-  border: none;
-}
 
 
 /* HEADER STYLING */
@@ -27,25 +24,38 @@ h1 {
   margin-top: 0;
 }
 
-
 .intro {
   border-bottom: 5px solid black;
   margin-bottom: 3px;
 }
 
-main, footer {
-  width: 95%;
-  margin: 0 auto;
-}
 
-legend {
-  width: 100%;
+
+/* FORM STYLING */
+
+.hr {
   border-top: 3px solid black;
 }
 
+fieldset {
+  border: none;
+}
 
-fieldset,
+.contact-container,
 .contact-info {
   display: flex;
   flex-direction: column;
+  padding: 0;
+}
+
+#zip {
+  margin-bottom: 2em;
+}
+
+
+
+/* FOOTER STYLING */
+
+footer span {
+  padding-bottom: 10rem;
 }
