@@ -39,17 +39,28 @@ h1 {
 
 fieldset {
   border: none;
+  padding: 0;
 }
 
 .contact-container,
 .contact-info {
   display: flex;
   flex-direction: column;
-  padding: 0;
+  /*padding: 0;*/
+}
+
+input[placeholder] {
+  text-align: right;
+  text-transform: capitalize;
 }
 
 #zip {
+  max-width: 50%;
   margin-bottom: 2em;
+}
+
+textarea, button {
+  width: 100%;
 }
 
 
@@ -58,4 +69,13 @@ fieldset {
 
 footer span {
   padding-bottom: 10rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+
+
 }
