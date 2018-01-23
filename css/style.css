@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   background-color: lightgrey;
+  font-family: 'Merriweather', serif;
 }
 
 header, footer, .intro {
@@ -49,7 +50,7 @@ fieldset {
   flex-direction: column;
 }
 
-input {
+input, textarea {
   background-color: WhiteSmoke;
 }
 
@@ -67,6 +68,9 @@ textarea, button {
   width: 100%;
 }
 
+:focus {
+  background-color: pink;
+}
 
 
 /* FOOTER STYLING */
