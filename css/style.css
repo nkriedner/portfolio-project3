@@ -56,7 +56,6 @@ input, textarea {
 
 input[placeholder] {
   text-align: right;
-  text-transform: capitalize;
 }
 
 #zip {
@@ -70,6 +69,7 @@ textarea, button {
 
 :focus {
   background-color: pink;
+  transition-duration: 2s;
 }
 
 
