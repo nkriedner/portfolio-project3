@@ -4,6 +4,7 @@
   box-sizing: border-box;
   background-color: lightgrey;
   font-family: 'Merriweather', serif;
+  font-size: .85rem;
 }
 
 header, footer, .intro {
@@ -23,11 +24,19 @@ h1 {
   text-transform: uppercase;
   background-color: black;
   color: white;
+  font-size: 1.2rem;
+  padding: 1.5rem;
   margin-top: 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+  /*font-weight: bold;*/
 }
 
 .intro {
   border-bottom: 5px solid black;
+  padding: 1.5rem 0;
   margin-bottom: 3px;
 }
 
@@ -37,11 +46,15 @@ h1 {
 
 .hr {
   border-top: 3px solid black;
-  margin-bottom: 2rem;
+  margin-bottom: 1.2rem;
 }
 
 .hr:nth-of-type(2) {
   margin-top: 1rem;
+}
+
+h3 {
+  font-size: 1.3rem;
 }
 
 fieldset {
@@ -62,7 +75,7 @@ fieldset {
 input, textarea, select {
   background-color: WhiteSmoke;
   padding: .5em;
-  border-radius: 4%;
+  border-radius: 10px;
 }
 
 input[placeholder] {
@@ -70,17 +83,51 @@ input[placeholder] {
 }
 
 #zip {
-  max-width: 50%;
-  /*margin-bottom: 2em;*/
+  width: 50%;
+  }
+
+label {
+  margin: 1rem 0.5rem 1rem 0;
+}
+
+.newsletter-container label {
+  display: inline-block;
+}
+
+.newsletter-container label,
+input[type="checkbox"],
+input[type="radio"],
+textarea {
+  margin: 1rem 0;
 }
 
 textarea, button {
   width: 100%;
 }
 
+textarea {
+  height: 8rem;
+}
+
 :focus {
-  background-color: pink;
+  background-color: #fff0a2;
   transition-duration: 2s;
+}
+
+button {
+  background-color: MediumTurquoise;
+  color: white;
+  font-size: 1.4rem;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin: 1rem 0 2rem 0;
+}
+
+button:hover {
+  background-color: #3aaba6;
+  transform: scale(1.05);
+  cursor: pointer;
+  transition: 1s;
 }
 
 
@@ -96,6 +143,10 @@ footer span {
 
 @media screen and (min-width: 768px) {
 
+  h2 {
+    font-size: 1.6rem;
+  }
+
   main {
     width: 55%;
   }
@@ -103,20 +154,18 @@ footer span {
   .contact-info {
     flex-direction: row;
     align-items: center;
-    /*justify-content: space-between;*/
   }
 
   .contact-info label {
     width: 25%;
   }
 
-  .contact-info input, select {
+  .contact-info input, select, .zip-container {
     width: 75%;
   }
 
   #zip {
-    max-width: 25%;
-    /*margin-right: auto;*/
+    width:35%;
   }
 
 
