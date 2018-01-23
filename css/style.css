@@ -120,6 +120,7 @@ textarea {
 :focus {
   background-color: #fffbda;
   transition-duration: 2s;
+  outline: 0;
 }
 
 button {
