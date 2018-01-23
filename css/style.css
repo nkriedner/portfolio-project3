@@ -31,7 +31,6 @@ h1 {
 
 h2 {
   font-size: 1.2rem;
-  /*font-weight: bold;*/
 }
 
 .intro {
@@ -44,13 +43,16 @@ h2 {
 
 /* FORM STYLING */
 
-.hr {
-  border-top: 3px solid black;
-  margin-bottom: 1.2rem;
+input, textarea, select {
+  background-color: WhiteSmoke;
+  padding: .5em;
+  border-radius: 10px;
+  text-align: left;
 }
 
-.hr:nth-of-type(2) {
-  margin-top: 1rem;
+input[placeholder] {
+  text-align: right;
+  font-style: italic;
 }
 
 h3 {
@@ -72,15 +74,15 @@ fieldset {
   margin: 1rem 0;
 }
 
-input, textarea, select {
-  background-color: WhiteSmoke;
-  padding: .5em;
-  border-radius: 10px;
+.hr {
+  border-top: 3px solid black;
+  margin-bottom: 1.2rem;
 }
 
-input[placeholder] {
-  text-align: right;
+.hr:nth-of-type(2) {
+  margin-top: 1rem;
 }
+
 
 #zip {
   width: 50%;
