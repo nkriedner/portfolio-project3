@@ -2,6 +2,7 @@
 
 * {
   box-sizing: border-box;
+  background-color: lightgrey;
 }
 
 header, footer, .intro {
@@ -46,7 +47,10 @@ fieldset {
 .contact-info {
   display: flex;
   flex-direction: column;
-  /*padding: 0;*/
+}
+
+input {
+  background-color: WhiteSmoke;
 }
 
 input[placeholder] {
@@ -76,6 +80,28 @@ footer span {
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
+
+  main {
+    width: 55%;
+  }
+
+  .contact-info {
+    flex-direction: row;
+    /*justify-content: space-between;*/
+  }
+
+  .contact-info label {
+    width: 25%;
+  }
+
+  .contact-info input, select {
+    width: 75%;
+  }
+
+  #zip {
+    max-width: 25%;
+    /*margin-right: auto;*/
+  }
 
 
 }
