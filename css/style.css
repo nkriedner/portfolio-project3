@@ -110,7 +110,7 @@ textarea, button {
 }
 
 option {
-  background-color: #fffbda;
+  background-color: rgba(255, 193, 7, 0.72);
 }
 
 textarea {
@@ -118,7 +118,7 @@ textarea {
 }
 
 :focus {
-  background-color: #fffbda;
+  background-color: rgba(255, 193, 7, 0.72);
   transition-duration: 2s;
   outline: 0;
 }
