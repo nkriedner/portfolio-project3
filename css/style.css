@@ -39,6 +39,9 @@ h2 {
   margin-bottom: 3px;
 }
 
+.intro, h2, p {
+  background-color: #fffbda;
+}
 
 
 /* FORM STYLING */
@@ -52,7 +55,6 @@ input, textarea, select {
 
 input::placeholder {
   text-align: right;
-  font-style: italic;
 }
 
 h3 {
@@ -107,17 +109,21 @@ textarea, button {
   width: 100%;
 }
 
+option {
+  background-color: #fffbda;
+}
+
 textarea {
   height: 8rem;
 }
 
 :focus {
-  background-color: #fff0a2;
+  background-color: #fffbda;
   transition-duration: 2s;
 }
 
 button {
-  background-color: MediumTurquoise;
+  background-color: #3aaba6;
   color: white;
   font-size: 1.4rem;
   padding: 1.2rem;
@@ -126,7 +132,7 @@ button {
 }
 
 button:hover {
-  background-color: #3aaba6;
+  background-color: MediumTurquoise;
   transform: scale(1.05);
   cursor: pointer;
   transition: 1s;
@@ -169,6 +175,5 @@ footer span {
   #zip {
     width:35%;
   }
-
 
 }
