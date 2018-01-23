@@ -50,7 +50,7 @@ input, textarea, select {
   text-align: left;
 }
 
-input[placeholder] {
+input::placeholder {
   text-align: right;
   font-style: italic;
 }
